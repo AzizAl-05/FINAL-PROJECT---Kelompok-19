@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f7f9fb;
+    color: #191c1e;
+}
+
+.hero-gradient {
+    background: radial-gradient(
+        circle at 50% -20%,
+        #e2dfff 0%,
+        #f7f9fb 70%
+    );
+}
+
+.card-shadow {
+    box-shadow:
+        0 20px 25px -5px rgba(79,70,229,.04),
+        0 8px 10px -6px rgba(79,70,229,.04);
+}
+
+main {
+    width: 100%;
+}

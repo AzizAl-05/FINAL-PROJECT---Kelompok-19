@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -8,61 +8,88 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# 🏠 KosMas - Sistem Informasi Manajemen Kost Mahasiswa
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+KosMas merupakan aplikasi berbasis web yang dikembangkan untuk membantu proses pengelolaan rumah kos mahasiswa secara lebih efektif dan terintegrasi. Aplikasi ini memungkinkan pengelola untuk mengelola data kamar, fasilitas, penghuni, dan transaksi sewa, serta memudahkan calon penyewa dalam mencari dan memesan kamar secara online.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Project ini dikembangkan sebagai Final Project Mata Kuliah **Pemrograman Web**.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## ✨ Fitur Utama
 
-## Learning Laravel
+* Registrasi dan Login Pengguna
+* Dashboard Admin menggunakan Filament
+* Manajemen Data Kamar
+* Manajemen Tipe Kamar
+* Manajemen Fasilitas
+* Manajemen Penghuni
+* Manajemen Transaksi Sewa
+* Pencarian dan Filter Kamar
+* Detail Kamar dan Fasilitas
+* Pemesanan Kamar Secara Online
+* Riwayat Penyewaan
+* Pengelolaan Profil Pengguna
+* Role-Based Access Control (RBAC)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+## 🛠️ Teknologi yang Digunakan
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+* Laravel
+* Filament Admin Panel
+* MySQL
+* Blade Template
+* Tailwind CSS
+* Spatie Laravel Permission
+* Vite
 
-## Laravel Sponsors
+## 🚀 Cara Menjalankan Project
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### 1. Download Repository
 
-### Premium Partners
+Download repository ini dalam bentuk ZIP kemudian ekstrak ke komputer Anda.
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+### 2. Import Database
 
-## Contributing
+Import file database berikut ke MySQL/MariaDB menggunakan phpMyAdmin:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```text
+sewa_kos_mhs.sql
+```
 
-## Code of Conduct
+### 3. Install Dependency
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Buka terminal pada folder project kemudian jalankan:
 
-## Security Vulnerabilities
+```bash
+composer install
+npm install
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 4. Jalankan Aplikasi
 
-## License
+```bash
+php artisan serve
+npm run dev
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# FINAL-PROJECT---Kelompok-19
-SISTEM INFORMASI MANAJEMEN KOST MAHASISWA 
+Aplikasi dapat diakses melalui:
 
-Mata Kuliah: Pemrograman Web 
+```text
+http://127.0.0.1:8000
+```
 
-Dosen Pengampu: Pak Nasrul S.Kom., M.Kom.
->>>>>>> 724789556f1d60c728c49ed2e9b7463833cf7655
+## 👥 Tim Pengembang
+
+| Nama                        | NIM        |
+| --------------------------- | ---------- |
+| Abdul Aziz Al Palembani     | 0110225118 |
+| Avicenna Zakiy Zuhair       | 0110225154 |
+| Muhammad A'qib Hadziq       | 0110225151 |
+| Azzidan Al'fatio Syachputra | 0110225173 |
+| Muhammad Abror              | 0110225122 |
+
+## 📄 Lisensi
+
+Project ini dikembangkan untuk keperluan akademik pada Mata Kuliah **Pemrograman Web**.
+
+---
+
+⭐ Terima kasih telah mengunjungi repository ini.

@@ -48,7 +48,7 @@ Download repository ini dalam bentuk ZIP kemudian ekstrak ke komputer Anda.
 
 ### 2. Import Database
 
-Keluarkan file database yang sudah dari file zip yang sudah di ekstrak tadi lalu Import file database berikut ke MySQL/MariaDB menggunakan phpMyAdmin:
+Keluarkan file database dari file zip yang sudah di ekstrak tadi lalu Import file database berikut ke MySQL/MariaDB menggunakan phpMyAdmin:
 
 ```text
 sewa_kos_mhs.sql

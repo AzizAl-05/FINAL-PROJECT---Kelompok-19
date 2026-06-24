@@ -14,6 +14,16 @@ KosMas merupakan aplikasi berbasis web yang dikembangkan untuk membantu proses p
 
 Project ini dikembangkan sebagai Final Project Mata Kuliah **Pemrograman Web**.
 
+## 👥 Tim Pengembang
+
+| Nama                        | NIM        |
+| --------------------------- | ---------- |
+| Abdul Aziz Al Palembani     | 0110225118 |
+| Avicenna Zakiy Zuhair       | 0110225154 |
+| Muhammad A'qib Hadziq       | 0110225151 |
+| Azzidan Al'fatio Syachputra | 0110225173 |
+| Muhammad Abror              | 0110225122 |
+
 ## ✨ Fitur Utama
 
 * Registrasi dan Login Pengguna
@@ -76,15 +86,6 @@ Aplikasi dapat diakses melalui:
 http://127.0.0.1:8000
 ```
 
-## 👥 Tim Pengembang
-
-| Nama                        | NIM        |
-| --------------------------- | ---------- |
-| Abdul Aziz Al Palembani     | 0110225118 |
-| Avicenna Zakiy Zuhair       | 0110225154 |
-| Muhammad A'qib Hadziq       | 0110225151 |
-| Azzidan Al'fatio Syachputra | 0110225173 |
-| Muhammad Abror              | 0110225122 |
 
 ## 📄 Lisensi
 

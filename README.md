@@ -87,6 +87,26 @@ Aplikasi dapat diakses melalui:
 http://127.0.0.1:8000
 ```
 
+### 5. Informasi Akun
+
+```Admin dan petugas
+Email : 
+admin@gmail.com
+petugas@gmail.com
+Password (untuk kedua akun) : 123
+```
+
+Untuk akses admin dan petugas berikan /admin/login pada url webnya
+
+Akun User Biasa:
+
+```text
+Email :
+wahyu@gmail.com
+Password : 12345678
+Atau silahkan coba daftarkan akun baru sendiri
+```
+
 
 ## 📄 Lisensi
 

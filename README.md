@@ -89,6 +89,8 @@ http://127.0.0.1:8000
 
 ### 5. Informasi Akun
 
+Akun Admin dan Petugas:
+
 ```Admin dan petugas
 Email : 
 admin@gmail.com

@@ -66,7 +66,7 @@ sewa_kos_mhs.sql
 
 ### 3. Install Dependency
 
-Buka terminal pada folder project kemudian jalankan:
+Buka 2 terminal pada folder project, kemudian jalankan perintah ini di terminal vscode (satu terminal satu perintah):
 
 ```bash
 composer install
@@ -76,6 +76,7 @@ npm install
 ### 4. Jalankan Aplikasi
 
 ```bash
+php artisan storage:link 
 php artisan serve
 npm run dev
 ```

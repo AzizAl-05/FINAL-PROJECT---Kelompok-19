@@ -66,7 +66,7 @@ sewa_kos_mhs.sql
 
 ### 3. Install Dependency
 
-Buka 2 terminal pada folder project, kemudian jalankan perintah ini di terminal vscode (satu terminal satu perintah):
+Buat 2 terminal pada folder project di vscode, kemudian jalankan perintah ini (satu terminal satu perintah):
 
 ```bash
 composer install
